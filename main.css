@@ -1,0 +1,154 @@
+/* ADD YOUR STYLES HERE */
+/* staff info is the table name  : change it!!*/
+.staffInfo {
+width: 98%;
+/*font-style: Arial;*/
+}
+
+.name td, th{
+padding: 10px 0 ;
+border-bottom: 1px solid grey;
+/*margin: 10px 0;*/
+/*box-sizing: content-box;*/
+}
+
+.stats {
+	width: 40%;
+	border-top: 1px solid grey; 
+	text-align: center;
+
+}
+
+.number {
+	/*desire font shorthand*/
+	font-size:  36px;
+	font-weight: bold;
+	padding-top: 10px ;
+}
+
+.publicity {
+	color: grey;
+	padding-bottom: 10px;
+}
+
+.barChart {
+	width: 90%;
+	border: none;
+	font-size: 24px;
+	/*font-weight: bold;*/
+}
+
+.barChart th {
+	width: 23%;
+	/*font-size: 30px;*/
+	font-weight: bold;
+	border: none;
+	text-align: right;
+	padding: 2px 5px;
+}
+
+.barChart .teal {
+	background-color: rgb(0, 107, 255);
+	border: 1px solid rgb(0, 107, 255);
+	color: white;
+	border-top-right-radius:5px;
+border-bottom-right-radius:5px;
+}
+
+/*.stretching {
+	height: 200px;
+	background: #92f;
+	position: relative;
+}
+.stretching-contents {
+	background: red;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+
+	width: 300px;
+	margin: auto;
+	height: 100px;
+}*/
+
+
+.backlight {
+	/*background-color: rgb(69,69,73);
+	height: 100%;
+	position: relative;*/
+
+	background-color: rgb(69, 69, 73);
+	height: 700px;
+	position: relative;
+	width: 90%;
+	/*margin: 0 1.5%;*/
+}
+
+.greeting {
+	/*background: white;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	height: 80%;
+	margin: auto;
+	*/
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin:   auto;
+	position: absolute;
+
+
+	width: 70%;
+	padding: 10px;
+	background-color: white;
+	border-radius: 5px;
+	height: 60%
+
+}
+
+.greetingClosure {
+	background-color: red;
+	padding: 5px;
+	text-align: center;
+	border-radius: 5px;
+	width: 25%;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+.greetingClosure a {
+color: white;
+border: none;
+}
+
+.photoPlace {
+	float: left;
+	margin: 0 3px;
+}
+.photoInfo  {
+	width: 750px;
+	/*white-space: nowrap;*/
+	/*padding: 0 5px ;*/
+}
+
+.photoInfo2 {
+	float: left;
+	width: 92%;
+}
+
+.photoPlace3 {
+	float: left;
+	padding: 5px;
+	/*overflow: hidden;*/
+}
+
+.mediaObjects {
+	overflow: hidden;
+}
+
+
